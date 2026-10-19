@@ -1,0 +1,33 @@
+# Generated dependency and build output
+**/node_modules/
+**/dist/
+**/target/
+**/target-*/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+embedding-benchmark/cache/
+
+# Local credentials and environment overrides
+**/.env
+**/.env.*
+!**/.env.example
+
+# Large release installers are distributed separately
+release/**/*.exe
+release/**/*.msi
+
+# Local distribution archives and model weights (kept outside the source repository)
+release/**/*.zip
+release/**/*.exe.legacy
+**/embedding-benchmark/cache/
+
+# Public source repository scope
+/embedding-benchmark/
+/docs/
+/release/
+*.mp4
+**/src-tauri/gen/

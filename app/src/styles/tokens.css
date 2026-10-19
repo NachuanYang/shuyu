@@ -1,0 +1,35 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  color: #282825;
+  background: #f6f2ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --paper: #f6f2ea;
+  --paper-raised: #fbf9f4;
+  --paper-deep: #eee9df;
+  --ink: #282825;
+  --ink-soft: #56564f;
+  --muted: #8d8c81;
+  --line: #e7e2d8;
+  --accent: #75806b;
+  --accent-deep: #53624d;
+  --accent-pale: #e6eadd;
+  --rust: #a96f53;
+  --shadow-soft: 0 18px 48px rgba(54, 47, 34, .055);
+  --radius-card: 18px;
+  --motion: 180ms cubic-bezier(.2, .7, .25, 1);
+}
+
+.theme-light {
+  --paper: #fafafa; --paper-raised: #fff; --paper-deep: #f1f2ef;
+  --ink: #292b2a; --ink-soft: #5f6460; --muted: #8b918b; --line: #e7e9e5;
+  --accent: #62776a; --accent-deep: #405a4b; --accent-pale: #e8efea;
+}
+
+.theme-dark {
+  --paper: #242622; --paper-raised: #2e302b; --paper-deep: #373a34;
+  --ink: #e8e5dc; --ink-soft: #cac8bf; --muted: #a09f94; --line: #44473f;
+  --accent: #a5b08e; --accent-deep: #c3cbb0; --accent-pale: #3a4035;
+  --rust: #d1a489; --shadow-soft: 0 18px 48px rgba(0, 0, 0, .2);
+}
